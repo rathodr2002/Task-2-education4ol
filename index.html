@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>E-commerce product page | Challenge | Frontendmentor.io</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="hamburger-logo-group">
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- <img src="./images/logo.svg" alt="logo icon"> -->
+                <div class="logo">
+                    sho<span id="blue">pp</span>ers
+                </div>
+                <nav class="menu hidden">
+                    
+                    <div class="slide-menu">
+                        <img id="btnMenuClose" src="./images/icon-close.svg" alt="icon close">
+
+                        <ul>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Mobiles</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Today's Deal</a></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Primium</a></li>
+                            <li><a href="#">New Release</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="cart-avatar-group">
+                <div class="btnCart">
+                    <img src="./images/icon-cart.svg" alt="cart icon">
+                    <div class="cart-count hidden">3</div>
+                </div>
+
+                <img class="avatar" src="./images/image-avatar.png" alt="image avatar">
+            </div>
+
+            <div class="cart hidden">
+                <div class="cart-header">Cart</div>
+                <div class="products-in-cart">
+                </div>
+                <div class="msg-empty">Your cart is empty.</div>
+                <div class="checkout hidden">Checkout</div>
+            </div>
+        </header>
+
+        <div class="content">
+
+            <!-- Lightbox -->
+            <section class="lightbox">
+                <img class="product-hero" src="./images/img1.jpg" alt="image product">
+                <div class="previous arrow">
+                    <img src="./images/icon-previous.svg" alt="icon previous">
+                </div>
+                <div class="next arrow">
+                    <img src="./images/icon-next.svg" alt="icon next">
+                </div>
+                <div class="thumb-gallery">
+                    <div class="pic active">
+                        <img src="./images/img1.jpg" alt="thumb-1">
+                    </div>
+                    <div class="pic">
+                        <img src="./images/img2.jpg" alt="thumb-2">
+                    </div>
+                    <div class="pic">
+                        <img src="./images/img3.jpg" alt="thumb-3">
+                    </div>
+                    <div class="pic">
+                        <img src="./images/img4.jpg" alt="thumb-4">
+                    </div>
+                </div>
+            </section>
+            <section >
+
+            </section>
+            <!-- Product -->
+            <section class="product">
+                <div class="company-name">SAMSUNG</div>
+                <div class="title">Samsung Galaxy M32(Light Blue ,6GB RAM, 128GB Storage)</div>
+                <div class="description">
+                    6 Months Free Screen Replacement for Primium Members 
+                </div>
+                <div class="price-wrapper">
+                    <div class="group">
+                        <div class="price"><span class="highlight">Deal Price.:</span>₹16,999.00</div>
+                        <div class="discount">11%</div>
+                    </div>
+                    <div class="highlight1"><span class="highlight">M.R.P.: </span>₹18,999.00</div>
+                    <div class="highlight"><span class="highlight">You Save: </span>₹2,000(Inclusice of all Taxes)</div>
+                    <hr>
+                    <div class="highlight"><b>EMI </b> starts at ₹800. No Cost EMI available 
+                        <form action="/action_page.php" label="EMI Option">
+
+                            <label for="emi">EMI Option: </label>
+                            <select name="emi" id="emi" >
+                                <optgroup label="Debit Cards EMI"> 
+                                    <option value="Bank of Baroda Credit Cards">Bank of Baroda Credit Cards</option>
+                                    <option value="HDFC Bank Credit Cards">HDFC Bank Credit Cards</option>
+                                    <option value="ICICI Bank Credit Cards">ICICI Bank Credit Cards</option>
+                                    <option value="Kotak Mahindra Bank Credit Cards">Kotak Mahindra Bank Credit Cards</option>
+                                    <option value="SBI Credit Cards">SBI Credit Cards</option>
+                                </optgroup>
+                                <optgroup label="Other EMIs">
+                                    <option value="Bajaj Finserv EMI Card">Bajaj Finserv EMI Card</option>
+                                    <option value="Amazon Pay ICICI Credit Card">Amazon Pay ICICI Credit Card</option>
+                                </optgroup>
+                        
+                            </select>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="count-btn-group">
+                    <div class="counter-wrapper">
+                        <img id="btnMinus" src="./images/icon-minus.svg" alt="icon minus">
+                        <div class="counter">1</div>
+                        <img id="btnPlus" src="./images/icon-plus.svg" alt="icon plus">
+                    </div>
+
+                    <div class="btn">
+                        <img src="./images/icon-cart.svg" alt="icon cart">
+                        <p>Add to cart</p>    
+                        
+                    </div>
+                    
+                    <div class="btn">
+                        <p>Buy Now</p>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+
+        <div class="overlay hidden">
+            <div class="btnClose">
+                <img id="btnOverlayClose" src="./images/icon-close.svg" alt="lightbox close">
+            </div>
+        </div>
+
+    </div>
+    <div class="info">
+       <pre>
+         <p><span class="info1"><b>Details</b></span></p>
+        <p><span class="info1">Model Number          </span> Galaxy M32</p>
+        <p><span class="info1">Wireless Carrier      </span> Unlocked For all Carriers</p>
+        <p><span class="info1">Brand                  </span>Samsung</p>
+        <p><span class="info1">Form factor            </span>Bar</p>
+        <p><span class="info1">Memory Storage Capacity</span>128 GB</p>
+       </pre>
+    </div>
+    <hr   width="80%" >    
+    <div class="about item">
+        <div id="abt1">
+           <b><br> About this item</b>
+        </div>
+        <div>
+            <ul id="list" type="dots">
+                <li>Segment Best 16.21 centimenters (6.4-inch) Super AMOLED - Infinity U-cut display,
+                    FHD+ resolution width 90Hz Refresh Rate.800 Nits high Brightness Mode, Protected by Gorilaa GLass 5
+                </li>
+                <li>
+                    Versatile 64MO+8MP+2MP+2MP Quad Camera Setup- 64MP(F1.8) main camera
+                    +8MP(F2.2)Ultra wide camera+2MP(F2.4) depth camera + 2MP(F2.4)Macro Camera | 20MP (F2.2)Front Camera
+                </li>
+                <li>Monster 6000 mAh Battery | Memory, Storage & SIM: 6Gb RAM | 128GB internal
+                    Memory expamdable up to 1TB | SIM 1 + SIM 2 + MicroSD  </li>
+                <li>Android v11.0 One UI 3.1 operating System with MediaTek | Hekio G80 Octa Core Processor 2GHz, 1.8GHz</li>
+                <li>6000 mAh lithium-ion Battery, ! year manufacturer warranty for device abd 6 months warrenty for in-box accessories including batteries from the date of purchase.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
